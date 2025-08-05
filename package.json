@@ -1,0 +1,29 @@
+{
+  "name": "png-to-csv",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colacadstink/png-to-csv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colacadstink/png-to-csv/issues"
+  },
+  "homepage": "https://github.com/colacadstink/png-to-csv#readme",
+  "description": "",
+  "dependencies": {
+    "pngjs": "7.0.0",
+    "typescript": "5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.2.0",
+    "@types/pngjs": "6.0.5"
+  }
+}
